@@ -1,0 +1,41 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  background: url('C:/Users/Pranav/Desktop/SKILLS/chirag/src/bg22.jpeg') no-repeat center center/cover; /* Set your background image */
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:blue;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.content {
+  padding: 30px;
+  /* Add more styling for your content */
+}
+
+h1{
+  font-size: 50px;
+}
